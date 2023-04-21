@@ -4,8 +4,9 @@ import React, {useLayoutEffect,useEffect, useRef} from 'react'
 import NavMobile from './NavMobile';
 import { gsap } from 'gsap'
 import { NavLink,NavLinkProps  } from 'react-router-dom';
-import {subMenuLinks} from '../data'
-
+import {images1, subMenuLinks} from '../data'
+import img1 from '../assets/carrousel9.jpg'
+import img2 from '../assets/carrousel8.jpg'
 
 
 
@@ -51,7 +52,7 @@ const Collections = () => {
   
   return ( 
 <div className="container  w-screen  grid grid-cols-3 absolute flex justify-center gap-8 grid-flow-col auto-cols-max align-center "  ref={containerRef}>
-  <img src="src\assets\carrousel9.jpg" alt="" className=" image w-full h-full object-cover ml-0 pl-0" />
+  <img src={img2} alt="" className=" image w-full h-full object-cover ml-0 pl-0" />
   <div className="titulo hidden lg:block z-10 items-center flex flex-col justify-center">
     <h1 className='text-4xl font-mono italic leading-loose text-letter  mt-20  font-bold'>"La fotografía <br />ayuda a la gente <br />a ver"</h1>
     <p className='text-letter'>Berenice Abbot</p>
@@ -71,7 +72,7 @@ const Collections = () => {
   </div>
   
   </div>
-  <img src="src\assets\carrousel8.jpg" alt="" className="image2 w-full h-full object-cover pr-12" />
+  <img src={img1} alt="" className="image2 w-full h-full object-cover pr-12" />
  
   <div className="lg:hidden ">
           <NavMobile/>
