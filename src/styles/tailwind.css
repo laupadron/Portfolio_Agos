@@ -1,0 +1,8 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* ============ flip hover styles ============ */
+.card:hover {  transform: rotateY(180deg); 
+     transform-style: preserve-3d;}
+.card-back {  transform: rotateY(180deg);}
