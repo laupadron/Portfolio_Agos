@@ -28,16 +28,16 @@ function App() {
     <BrowserRouter>
       <div className="">
         
-        <div className="lg:hidden ">
+        {/* <div className="lg:hidden ">
           <Hero />
-        </div>
+        </div> */}
         <Routes>
           <Route path='/' element = {<Header />}/>
           <Route path="/collections" element={<Collections />} />
-          <Route path="/collections/portraits" element={<SlideShow images={images1} className={'max-w-[380px] h-[620px] w-full m-auto py-16 px-4 relative group'} h2={retratos}/>} />
-          <Route path="/collections/events" element={<SlideShow images={images2} className={'max-w-[380px] h-[620px] w-full m-auto py-16 px-4 relative group'} h2={eventos}/>} />
-          <Route path="/collections/moda" element={<SlideShow images={images3} className={'max-w-[380px] h-[620px] w-full m-auto py-16 px-4 relative group'} h2={moda}/>} />
-          <Route path="/collections/powerWoman" element={<SlideShow images={images4} className={'max-w-[380px] h-[620px] w-full m-auto py-16 px-4 relative group'} h2={powerWoman}/>} />
+          <Route path="/collections/portraits" element={<SlideShow images={images1} className={'max-w-[380px] h-[580px] w-full m-auto py-16 px-4 pt-0 mt-4 relative group '} h2={retratos}/>} />
+          <Route path="/collections/events" element={<SlideShow images={images2} className={'max-w-[380px] h-[580px] pt-0 w-full m-auto py-16 px-4 relative group'} h2={eventos}/>} />
+          <Route path="/collections/moda" element={<SlideShow images={images3} className={'max-w-[380px] h-[580px] pt-0 w-full m-auto py-16 px-4 relative group'} h2={moda}/>} />
+          <Route path="/collections/powerWoman" element={<SlideShow images={images4} className={'max-w-[380px] h-[580px] pt-0 w-full m-auto py-16 px-4 relative group'} h2={powerWoman}/>} />
         </Routes>
       </div>
     </BrowserRouter>

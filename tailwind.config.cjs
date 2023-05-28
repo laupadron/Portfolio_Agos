@@ -10,12 +10,12 @@ module.exports = {
     extend: {},
     colors:{
       hover:'#647E68',
-      bgApp:'#E5E5CB',
+      bgApp:'#2C3333',
       bgCircle: '#F2F7A1',
-      letter:'#4F4557',
-      bgModal:'#F7F1E5'
-        
-      
+      letter:'#E5E5CB',
+      bgModal:'#F7F1E5',
+      bgForm:'#7F8487',
+      bgButton:'white'
     },
     keyframes: {
       fadeIn: {
@@ -26,6 +26,10 @@ module.exports = {
     animation: {
       fadeIn: 'fadeIn 1s ease-in-out',
     },
+    scale: {
+      'hover-120': '1.2', // Ajusta el valor según el tamaño de agrandamiento deseado
+    },
+   
   },
   plugins: [],
 }

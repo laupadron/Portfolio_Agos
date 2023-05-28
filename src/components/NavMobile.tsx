@@ -5,6 +5,7 @@ import { motion } from "framer-motion"
 import { Link } from 'react-scroll';
 import '../styles/tailwind.css';
 import Hero from './Hero';
+import { NavLink } from 'react-router-dom';
 
 const NavMobile = () => {
 
@@ -77,6 +78,7 @@ const NavMobile = () => {
                     <Link to={menu.link} activeClass='active' spy={true} smooth={true} duration={500} offset={-70} className=' cursor-pointer capitalize' onClick={() => {
                         if (menu.name === "Collections") {
                             setShowSubMenu(!showSubMenu);
+                            
                         }
                     }}>
                         {menu.name}

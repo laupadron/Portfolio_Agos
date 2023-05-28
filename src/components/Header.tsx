@@ -23,22 +23,22 @@ const Header = () => {
   
   return (
     <header>
-      <div className="container mx-auto flex gap-x-40">
+      <div className="container mx-auto flex flex-col justify-center lg:flex-row  gap-x-0 lg:gap-x-40 ">
         
         {/*nav*/}
-        <div className="hidden lg:block z-50 ">
+        <div className="w-full lg:w-1/3 lg:ml-auto lg:mr-auto lg:ml-0 lg:mr-0 ml-24 " >
           <Nav/>
           
         </div>
-        <div className="lg:hidden ">
+        {/* <div className="lg:hidden ">
           <NavMobile/>
           
-        </div>
-        <div className="hidden lg:block ">
+        </div> */}
+        <div className="w-full lg:w-2/3 ">
           <SectionHome/>
           
         </div>
-        <div className="hidden lg:block ">
+        <div className="hidden lg:block">
           <SectionHome2/>
           
         </div>
