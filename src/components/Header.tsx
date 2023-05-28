@@ -26,7 +26,7 @@ const Header = () => {
       <div className="container mx-auto flex flex-col justify-center lg:flex-row  gap-x-0 lg:gap-x-40 ">
         
         {/*nav*/}
-        <div className="w-full lg:w-1/3 lg:ml-auto lg:mr-auto lg:ml-0 lg:mr-0 ml-24 " >
+        <div className="w-full lg:w-1/3 lg:ml-auto lg:mr-auto lg:ml-0 lg:mr-0 ml-20 " >
           <Nav/>
           
         </div>
@@ -34,7 +34,7 @@ const Header = () => {
           <NavMobile/>
           
         </div> */}
-        <div className="w-full lg:w-2/3 ">
+        <div className="hidden lg:block  ">
           <SectionHome/>
           
         </div>

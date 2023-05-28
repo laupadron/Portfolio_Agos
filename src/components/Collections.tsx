@@ -52,7 +52,7 @@ const Collections = () => {
   
   return ( 
 <div className="container  w-screen  grid grid-cols-3 absolute flex justify-center gap-8 grid-flow-col auto-cols-max align-center  "  ref={containerRef}>
-  <img src={img2} alt="" className=" image w-full h-full object-cover ml-0 pl-0 " />
+  <img src={img2} alt="" className=" image w-full h-full object-cover ml-0 pl-0 hidden lg:block" />
   <div className="titulo  z-10 items-center flex flex-col justify-center text-center lg:col-span-2 ">
     <h1 className='text-4xl font-mono italic leading-loose text-letter  mt-20  font-bold'>"La fotografía <br />ayuda a la gente <br />a ver"</h1>
     <p className='text-letter'>Berenice Abbot</p>
