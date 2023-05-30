@@ -23,10 +23,10 @@ const Header = () => {
   
   return (
     <header>
-      <div className="container mx-auto flex flex-col justify-center lg:flex-row  gap-x-0 lg:gap-x-40 ">
+      <div className="container  grid grid-cols grid-cols-3 gap-3 justify-center  lg:flex-row    ">
         
         {/*nav*/}
-        <div className="w-full lg:w-1/3 lg:ml-auto lg:mr-auto lg:ml-0 lg:mr-0 ml-20 " >
+        <div className="w-full ml-0 lg:w-1/3   " >
           <Nav/>
           
         </div>
@@ -34,7 +34,7 @@ const Header = () => {
           <NavMobile/>
           
         </div> */}
-        <div className="hidden lg:block  ">
+        <div className="mr-auto  hidden lg:block  ">
           <SectionHome/>
           
         </div>

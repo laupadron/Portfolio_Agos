@@ -76,7 +76,7 @@ const Nav = () => {
           <div className='modal-flex-container flex items-end justify-center  pt-4 px-4 pb-20 text-center sm:block sm:p-0  '></div>
           <div className='modal-bg-container fixed inset-0 bg-white bg-opacity-25 '></div>
           <div className='modal-space-container '></div>
-          <div className='modal-container inline-block aline-bottom bg-white rounded-lg overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg lg:max-w-md w-full mr-8 lg lg:z-50'>
+          <div className='modal-container inline-block aline-bottom bg-white rounded-lg overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg lg:max-w-md w-full mr-8 lg '>
             <div className='modal-wrapper bg-bgForm px-4 pt-5 pb-4 sm:p-6 sm-pb-4'>
               <div className='modal-wrapper-flex justify-center align-center  sm:flex sm:items-start'>
                 
